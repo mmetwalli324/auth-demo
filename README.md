@@ -13,6 +13,7 @@ DOMAIN=
 In `/backend`:
 
 ```
+py -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
 flask --app server.py run
