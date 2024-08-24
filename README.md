@@ -8,7 +8,14 @@ BASEDN=
 DOMAIN=
 ```
 
-2. Run the following commands:
+2. Create and edit .env in '/frontend':
+
+```
+VITE_CLEINT_ID=
+VITE_AUTHORITY=
+```
+
+3. Run the following commands:
 
 In `/backend`:
 
