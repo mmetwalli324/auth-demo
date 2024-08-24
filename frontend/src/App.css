@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+.main-container,
+.sso-container,
 form {
 	display: flex;
 	flex-direction: column;
