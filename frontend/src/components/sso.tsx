@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import { useIsAuthenticated } from '@azure/msal-react'
 import SignInButton from './signin-button'
 import SignOutButton from './signout-button'

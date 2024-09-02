@@ -1,7 +1,7 @@
 import { graphConfig } from "./auth-config";
 
 // Attaches a given access token to MS Graph API call. Returns user information.
-export async function callMsGraph(accessToken) {
+export async function callMsGraph(accessToken: any) {
     const headers = new Headers();
     const bearer = `Bearer ${accessToken}`;
 

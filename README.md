@@ -34,3 +34,10 @@ npm run dev
 ```
 
 Backend listens to port 5000, auth to 3000, and frontend to 5173
+
+## To run Docker:
+
+```
+cd auth-demo
+docker compose up
+```

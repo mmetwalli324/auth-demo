@@ -1,7 +1,7 @@
 import './App.css'
 import { ErrorBoundary } from 'react-error-boundary'
 import InputField from './components/input'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from '@azure/msal-react'
 import { loginRequest } from './auth-config'
 import { callMsGraph } from './graph'

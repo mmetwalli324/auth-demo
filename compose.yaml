@@ -1,0 +1,20 @@
+services:
+  backend:
+    image: mmetwalli324/backend-layer
+    build: ./backend
+    ports:
+      - "5000:5000"
+
+  auth:
+    image: mmetwlli324/auth-layer
+    build: ./auth
+    env_file: ./auth/.env
+    ports:
+      - "3000:3000"
+
+  frontend:
+    image: mmetwlli324/frontend-layer
+    build: ./frontend
+    env_file: ./frontend/.env
+    ports:
+      - "5173:5173"
